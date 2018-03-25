@@ -1,0 +1,161 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Hogan} \headerlastnamestyle{McDonald} \\
+	\vspace{2mm}
+	{\faEnvelope\ me@hoganmcdonald.com} | {\faMobile\ (651) 230 - 1107} | {\faMapMarker\ Minneapolis, MN} | {\faLink\ hoganmcdonald.com}
+\end{center}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages:  & {\skill{ JavaScript, Python, Java, SQL}} \\
+		Frameworks:  & {\skill{ React, AngularJs, React Native, Node.js, Express, PostgreSQL, MongoDB, TensorFlow, Keras, Numpy}} \\
+		Tools:  & {\skill{ Git + Github, IntelliJ, PyCharm, Postman, GitLab}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{Custom store locator using Google Maps JavaScript API, svg animation, and web design built on top of existing shopify theme.}
+	{Odin \& Osgar}
+	{Shopify, Liquid, Sass, Gulp, ThemeKit}
+	{odinandosgar.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Custom messaging rest API for IoT devices. Sends custom text to voice messages when a device is triggered.}
+	{Praeco - Lab651}
+	{Twilio, Passport.js, Node.js, Express, Particle.io, AngularJs}
+	{lab651.com/products}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Placed 2nd at 2017 Twin Cities Startup Week: Hack for Change. Uses custom machine learning algorithm and Nexosis API to predict a users date of death based on CDC historical data on mortality.}
+	{I Know When You’re Going to Die - TCSW: Hack For Change}
+	{Node.js, Express, Nexosis, Kaggle}
+	{Iknowwhenyouregoingtodie.herokuapp.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Full stack web application that allows users to catalog ideas for blogs, speeches, and presentations. Uses IBM Watson API to provide sentiment analysis on user input..}
+	{Capture - Prime Digital Academy}
+	{AngularJs, PostgreSQL, Express, Node.js, Watson Cloud, Charts.js}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Web Development Teaching Assistant}
+	{Trilogy Education Services - University of Minnesota}
+	{Minneapolis, MN}
+	{Jan 2018 – Present}
+	{\begin{cvitems}
+		\item {Graded all student assignments and provided timely feedback on best practices.}
+		\item {O ff ered one on one support to students with diverse backgrounds.}
+		\item {Collaborated with other staff on shaping Web Development curriculum to meet the needs of local job market.}
+		\end{cvitems}}
+	\cventry
+	{Store Lead}
+	{Words Bookstore}
+	{MSP Airport}
+	{Sep 2016 – Aug 2017}
+	{\begin{cvitems}
+		\item {Trained employees on visual and opperational standards for the store.}
+		\item {Designed merchandise that accounted for 20\% of sales.}
+		\end{cvitems}}
+	\cventry
+	{Community Engagement Coordinator}
+	{Bloom Church}
+	{St. Paul, MN}
+	{May 2015 – Mar 2016}
+	{\begin{cvitems}
+		\item {Developed systems for communication between staff and volunteers.}
+		\item {Wrote and delivered sermons at least monthly.}
+		\item {Mentored community voluneteers on strategies for leading small group curriculums.}
+		\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Full Stack Software Engineering Certification}
+	{Prime Digital Academy}
+	{Minneapolis, MN}
+	{Aug 2017}
+	{}
+	\cventry
+	{Pastoral Theology - Generals}
+	{North Central University}
+	{Minneapolis, MN}
+	{Sep 2013 – Sep 2015}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+
+\ 
+\end{document}
