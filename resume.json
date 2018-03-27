@@ -83,7 +83,9 @@
         "Python",
         "Java",
         "SQL",
-        null
+        "SQL",
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -104,13 +106,25 @@
     {
       "keywords": [
         "Git + Github",
+        "Webpack",
+        "Gulp",
         "IntelliJ",
         "PyCharm",
         "Postman",
-        "GitLab",
-        ""
+        "GitLab"
       ],
       "name": "Tools"
+    },
+    {
+      "keywords": [
+        "Heroku",
+        "AWS - S3",
+        "AWS - IAM",
+        "AWS - CloudFront",
+        "AWS - API Gateway",
+        "AWS - Lambda"
+      ],
+      "name": "Services"
     }
   ],
   "projects": [
@@ -122,8 +136,7 @@
         "Liquid",
         "Sass",
         "Gulp",
-        "ThemeKit",
-        ""
+        "ThemeKit"
       ],
       "name": "Odin & Osgar"
     },
@@ -134,8 +147,7 @@
         "Node.js",
         "Express",
         "Particle.io",
-        "AngularJs",
-        null
+        "AngularJs"
       ],
       "name": "Praeco - Lab651",
       "url": "lab651.com/products",
@@ -146,8 +158,7 @@
         "Node.js",
         "Express",
         "Nexosis",
-        "Kaggle",
-        ""
+        "Kaggle"
       ],
       "name": "I Know When You’re Going to Die - TCSW: Hack For Change",
       "url": "Iknowwhenyouregoingtodie.herokuapp.com",
