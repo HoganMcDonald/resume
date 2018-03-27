@@ -1,0 +1,174 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "work": "Experience"
+  },
+  "basics": {
+    "name": "Hogan McDonald",
+    "website": "hoganmcdonald.com",
+    "location": {
+      "address": "Minneapolis, MN"
+    },
+    "email": "me@hoganmcdonald.com",
+    "phone": "(651) 230 - 1107"
+  },
+  "education": [
+    {
+      "location": "Minneapolis, MN",
+      "area": "",
+      "startDate": "",
+      "endDate": "Aug 2017",
+      "gpa": "",
+      "institution": "Prime Digital Academy",
+      "studyType": "Full Stack Software Engineering Certification"
+    },
+    {
+      "institution": "North Central University",
+      "location": "Minneapolis, MN",
+      "area": "Pastoral Theology - Generals ",
+      "startDate": "Sep 2013",
+      "endDate": "Sep 2015"
+    }
+  ],
+  "work": [
+    {
+      "company": "Trilogy Education Services - University of Minnesota",
+      "location": "Minneapolis, MN",
+      "position": "Web Development Teaching Assistant",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        "Graded all student assignments and provided timely feedback on best practices.",
+        "O ff ered one on one support to students with diverse backgrounds.",
+        "Collaborated with other staff on shaping Web Development curriculum to meet the needs of local job market.",
+        ""
+      ],
+      "startDate": "Jan 2018"
+    },
+    {
+      "highlights": [
+        "Trained employees on visual and opperational standards for the store.",
+        "Designed merchandise that accounted for 20% of sales.",
+        ""
+      ],
+      "company": "Words Bookstore",
+      "position": "Store Lead",
+      "location": "MSP Airport",
+      "startDate": "Sep 2016",
+      "endDate": "Aug 2017"
+    },
+    {
+      "highlights": [
+        "Developed systems for communication between staff and volunteers.",
+        "Wrote and delivered sermons at least monthly.",
+        "Mentored community voluneteers on strategies for leading small group curriculums.",
+        ""
+      ],
+      "company": "Bloom Church",
+      "position": "Community Engagement Coordinator",
+      "location": "St. Paul, MN",
+      "startDate": "May 2015",
+      "endDate": "Mar 2016"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "SQL",
+        null
+      ]
+    },
+    {
+      "keywords": [
+        "React",
+        "AngularJs",
+        "React Native",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "MongoDB",
+        "TensorFlow",
+        "Keras",
+        "Numpy"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Git + Github",
+        "IntelliJ",
+        "PyCharm",
+        "Postman",
+        "GitLab",
+        ""
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Custom store locator, svg animation, and web design built on top of existing shopify theme.",
+      "url": "odinandosgar.com",
+      "keywords": [
+        "Shopify",
+        "Liquid",
+        "Sass",
+        "Gulp",
+        "ThemeKit",
+        ""
+      ],
+      "name": "Odin & Osgar"
+    },
+    {
+      "keywords": [
+        "Twilio",
+        "Passport.js",
+        "Node.js",
+        "Express",
+        "Particle.io",
+        "AngularJs",
+        null
+      ],
+      "name": "Praeco - Lab651",
+      "url": "lab651.com/products",
+      "description": "Custom messaging rest API for IoT devices. Sends custom text to voice messages when a device is triggered."
+    },
+    {
+      "keywords": [
+        "Node.js",
+        "Express",
+        "Nexosis",
+        "Kaggle",
+        ""
+      ],
+      "name": "I Know When You’re Going to Die - TCSW: Hack For Change",
+      "url": "Iknowwhenyouregoingtodie.herokuapp.com",
+      "description": "Placed 2nd at 2017 Twin Cities Startup Week: Hack for Change. Uses custom machine learning algorithm and Nexosis API to predict a users date of death based on CDC historical data on mortality."
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
