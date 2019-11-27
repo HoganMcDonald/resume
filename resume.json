@@ -12,7 +12,7 @@
     "location": {
       "address": "Minneapolis, MN"
     },
-    "email": "me@hoganmcdonald.com",
+    "email": "hogan.developer@gmail.com",
     "phone": "(651) 230 - 1107"
   },
   "education": [
@@ -35,93 +35,63 @@
   ],
   "work": [
     {
+      "company": "Brandless",
+      "location": "Minneapolis, MN",
+      "position": "Software Engineer 2",
+      "website": "brandless.com",
+      "highlights": [],
+      "startDate": "Apr 2019",
+      "endDate": "Present"
+    },
+    {
+      "company": "Foundry",
+      "location": "Minneapolis, MN",
+      "position": "Software Developer",
+      "website": "foundrymakes.com",
+      "highlights": [],
+      "startDate": "Apr 2018",
+      "endDate": "Mar 2019"
+    },
+    {
       "company": "Trilogy Education Services - University of Minnesota",
       "location": "Minneapolis, MN",
       "position": "Web Development Teaching Assistant",
-      "website": "",
-      "endDate": "Present",
+      "website": "bootcamp.umn.edu",
       "highlights": [
-        "Graded all student assignments and provided timely feedback on best practices.",
-        "O ff ered one on one support to students with diverse backgrounds.",
-        "Collaborated with other staff on shaping Web Development curriculum to meet the needs of local job market.",
-        ""
+        "Graded all student assignments and provided timely feedback.",
+        "Offered one-on-one support to students with diverse backgrounds.",
+        "Collaborated with other staff on shaping Web Development curriculum to meet the needs of local job market."
       ],
-      "startDate": "Jan 2018"
-    },
-    {
-      "highlights": [
-        "Trained employees on visual and opperational standards for the store.",
-        "Designed merchandise that accounted for 20% of sales.",
-        ""
-      ],
-      "company": "Words Bookstore",
-      "position": "Store Lead",
-      "location": "MSP Airport",
-      "startDate": "Sep 2016",
-      "endDate": "Aug 2017"
-    },
-    {
-      "highlights": [
-        "Developed systems for communication between staff and volunteers.",
-        "Wrote and delivered sermons at least monthly.",
-        "Mentored community voluneteers on strategies for leading small group curriculums.",
-        ""
-      ],
-      "company": "Bloom Church",
-      "position": "Community Engagement Coordinator",
-      "location": "St. Paul, MN",
-      "startDate": "May 2015",
-      "endDate": "Mar 2016"
+      "startDate": "Jan 2018",
+      "endDate": "Jun 2018"
     }
   ],
   "skills": [
     {
       "name": "Languages",
-      "level": "",
+      "keywords": ["JavaScript", "Ruby", "Typescript", "PHP", "SQL"]
+    },
+    {
+      "name": "Frameworks",
       "keywords": [
-        "JavaScript",
-        "Python",
-        "Java",
-        "SQL",
-        "SQL",
-        "HTML",
-        "CSS"
+        "React",
+        "Ruby on Rails",
+        "React Native",
+        "Node.js",
+        "PostgreSQL",
+        "Wordpress"
       ]
     },
     {
-      "keywords": [
-        "React",
-        "AngularJs",
-        "React Native",
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "MongoDB",
-        "TensorFlow",
-        "Keras",
-        "Numpy"
-      ],
-      "name": "Frameworks"
-    },
-    {
-      "keywords": [
-        "Git + Github",
-        "Webpack",
-        "Gulp",
-        "IntelliJ",
-        "PyCharm",
-        "Postman",
-        "GitLab"
-      ],
-      "name": "Tools"
+      "name": "Tools",
+      "keywords": ["Git", "Webpack", "NGINX", "Linux", ""]
     },
     {
       "keywords": [
         "Heroku",
         "AWS - S3",
+        "AWS - EC2",
         "AWS - IAM",
-        "AWS - CloudFront",
-        "AWS - API Gateway",
         "AWS - Lambda"
       ],
       "name": "Services"
@@ -131,13 +101,7 @@
     {
       "description": "Custom store locator, svg animation, and web design built on top of existing shopify theme.",
       "url": "odinandosgar.com",
-      "keywords": [
-        "Shopify",
-        "Liquid",
-        "Sass",
-        "Gulp",
-        "ThemeKit"
-      ],
+      "keywords": ["Shopify", "Liquid", "Sass", "Gulp", "ThemeKit"],
       "name": "Odin & Osgar"
     },
     {
@@ -154,12 +118,7 @@
       "description": "Custom messaging rest API for IoT devices. Sends custom text to voice messages when a device is triggered."
     },
     {
-      "keywords": [
-        "Node.js",
-        "Express",
-        "Nexosis",
-        "Kaggle"
-      ],
+      "keywords": ["Node.js", "Express", "Nexosis", "Kaggle"],
       "name": "I Know When You’re Going to Die - TCSW: Hack For Change",
       "url": "Iknowwhenyouregoingtodie.herokuapp.com",
       "description": "Placed 2nd at 2017 Twin Cities Startup Week: Hack for Change. Uses custom machine learning algorithm and Nexosis API to predict a users date of death based on CDC historical data on mortality."
