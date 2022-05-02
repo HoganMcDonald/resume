@@ -1,161 +1,102 @@
-%!TEX TS-program = xelatex
-%!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
+\documentclass{res}
 
+\usepackage{pifont}
+\newsectionwidth{0pt}
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headheight}{24pt}
+\setlength{\headsep}{24pt}
+\pagestyle{fancy}
+\cfoot{}
+\topmargin=-0.4in
+\usepackage[margin=0.5in]{geometry}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Configuration
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Themes: Awesome-CV
-\documentclass[]{awesome-cv}
-\usepackage{textcomp}
-%%% Override a directory location for fonts(default: 'fonts/')
-\fontdir[fonts/]
+\begin{document}
+	\thispagestyle{empty} % no header
+	\centerline{\bf \Large{Hogan McDonald}}
+  \centerline{hey@hogan.dev | hoganmcdonald (GitHub)}
 
-%%% Configure a directory location for sections
-\newcommand*{\sectiondir}{resume/}
+	\begin{resume}
 
-%%% Override color
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-%% Color for highlight
-% Define your custom color if you don't like awesome colors
-\colorlet{awesome}{awesome-red}
-%\definecolor{awesome}{HTML}{CA63A8}
-%% Colors for text
-%\definecolor{darktext}{HTML}{414141}
-%\definecolor{text}{HTML}{414141}
-%\definecolor{graytext}{HTML}{414141}
-%\definecolor{lighttext}{HTML}{414141}
+		\section{\centerline{PROFESSIONAL EXPERIENCE}}
 
-%%% Override a separator for social informations in header(default: ' | ')
-%\headersocialsep[\quad\textbar\quad]
-    \begin{document}
+		{\bf Soona, Minneapolis, MN} \hfill \emph{March 2020 - Present} \\
+			\emph{Senior Software Engineer}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Profile
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{center}
-	\headerfirstnamestyle{Hogan} \headerlastnamestyle{McDonald} \\
-	\vspace{2mm}
-	{\faEnvelope\ me@hoganmcdonald.com} | {\faMobile\ (651) 230 - 1107} | {\faMapMarker\ Minneapolis, MN} | {\faLink\ hoganmcdonald.com}
-\end{center}
-\cvsection{Skills}
-\begin{cventries}
-	\cventry
-	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Languages:  & {\skill{ JavaScript, Python, Java, SQL, Shopify/Liquid, SASS, CSS, HTML}} \\
-		Frameworks:  & {\skill{ React, AngularJs, React Native, Node.js, Express, PostgreSQL, MongoDB, TensorFlow, Keras, Numpy}} \\
-		Tools:  & {\skill{ Git + Github, Webpack, Gulp, IntelliJ, PyCharm, Postman, GitLab}} \\
-		\end{tabular}}}
-	{}
-	{}
-	{}
-\end{cventries}
+			\begin{itemize} \itemsep -2pt
+				\item Developed a universal notification system using slack that was responsible for sending hundreds of messages daily.
+				\item Created Cypress test suite for automated end-to-end testing and trained engineering organization on its use.
+				\item Designed, lead, and trained teammates on a peer interview process used for every new hire.
+        \item Architected and scaled a custom library to automate scheduling while taking into account availability, capacity, and studio resources.
+        \item Automated engineer onboarding with a script that set up a development-ready environment in 15 minutes.
+        \item Implemented a large, multi-stage data migration to facilitate multi-user accounts with controlled access.
+			\end{itemize}
 
-\vspace{-7mm}
-\cvsection{Projects}
-\begin{cventries}
-	\cventry
-	{Custom store locator using Google Maps JavaScript API, svg animation, and web design built on top of existing shopify theme.}
-	{Odin \& Osgar}
-	{Shopify, Liquid, Sass, Gulp, ThemeKit}
-	{odinandosgar.com}
-	{}
+		{\bf Independent Contractor} \hfill \emph{April 2019 - Present} \\
+			\emph{Playworks - 2021}
 
-	\vspace{-5mm}
-	\cventry
-	{Custom messaging rest API for IoT devices. Sends custom text to voice messages when a device is triggered.}
-	{Praeco - Lab651}
-	{Twilio, Passport.js, Node.js, Express, Particle.io, AngularJs}
-	{lab651.com/products}
-	{}
+			\begin{itemize} \itemsep -2pt
+				\item Designed and built custom fundraising software that included photo uploading and social features.
+			\end{itemize}
 
-	\vspace{-5mm}
-	\cventry
-	{Placed 2nd at 2017 Twin Cities Startup Week: Hack for Change. Uses custom machine learning algorithm and Nexosis API to predict a users date of death based on CDC historical data on mortality.}
-	{I Know When You’re Going to Die - TCSW: Hack For Change}
-	{Node.js, Express, Nexosis, Kaggle}
-	{Iknowwhenyouregoingtodie.herokuapp.com}
-	{}
+			\emph{USA Power Lifting - 2021}
 
-	\vspace{-5mm}
-	\cventry
-	{Full stack web application that allows users to catalog ideas for blogs, speeches, and presentations. Uses IBM Watson API to provide sentiment analysis on user input..}
-	{Capture - Prime Digital Academy}
-	{AngularJs, PostgreSQL, Express, Node.js, Watson Cloud, Charts.js}
-	{}
-	{}
+			\begin{itemize} \itemsep -2pt
+				\item Collaborated with partner to design and develop custom tournament registration and implementation software.
+			\end{itemize}
 
-	\vspace{-5mm}
-\end{cventries}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Experience
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Experience}
-\begin{cventries}
-	\cventry
-	{Web Development Teaching Assistant}
-	{Trilogy Education Services - University of Minnesota}
-	{Minneapolis, MN}
-	{Jan 2018 – Present}
-	{\begin{cvitems}
-		\item {Graded all student assignments and provided timely feedback on best practices.}
-		\item {O ff ered one on one support to students with diverse backgrounds.}
-		\item {Collaborated with other staff on shaping Web Development curriculum to meet the needs of local job market.}
-		\end{cvitems}}
-	\cventry
-	{Store Lead}
-	{Words Bookstore}
-	{MSP Airport}
-	{Sep 2016 – Aug 2017}
-	{\begin{cvitems}
-		\item {Trained employees on visual and opperational standards for the store.}
-		\item {Designed merchandise that accounted for 20\% of sales.}
-		\end{cvitems}}
-	\cventry
-	{Community Engagement Coordinator}
-	{Bloom Church}
-	{St. Paul, MN}
-	{May 2015 – Mar 2016}
-	{\begin{cvitems}
-		\item {Developed systems for communication between staff and volunteers.}
-		\item {Wrote and delivered sermons at least monthly.}
-		\item {Mentored community voluneteers on strategies for leading small group curriculums.}
-		\end{cvitems}}
-\end{cventries}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Education
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection{Education}
-\begin{cventries}
-	\cventry
-	{Full Stack Software Engineering Certification}
-	{Prime Digital Academy}
-	{Minneapolis, MN}
-	{Aug 2017}
-	{}
-	\cventry
-	{Pastoral Theology - Generals}
-	{North Central University}
-	{Minneapolis, MN}
-	{Sep 2013 – Sep 2015}
-	{}
-\end{cventries}
+			\emph{Foundry - 2020}
 
-\vspace{-2mm}
+			\begin{itemize} \itemsep -2pt
+				\item Consulted on the technical implementation of a Shopify enterprise website rebuild.
+			\end{itemize}
 
-\
+			\emph{Forward Motion Therapy - 2018}
+
+			\begin{itemize} \itemsep -2pt
+				\item Designed, built, and deployed custom website for therapy private practice.
+			\end{itemize}
+
+		{\bf Brandless, Minneapolis, MN} \hfill \emph{April 2019 - February 2020} \\
+			\emph{Software Engineer II}
+
+			\begin{itemize} \itemsep -2pt
+				\item Helped design and implement A/B tests designed to increase conversion of potential customers.
+        \item Re-architected the checkout routing system that resulted in higher conversion rates while resolving multiple active bugs.
+        \item Lead efforts to identify and resolve high priority incidents, including preventing a \$500,000 loss.
+			\end{itemize}
+
+		{\bf Foundry, Minneapolis, MN} \hfill \emph{April 2018 - March 2019} \\
+			\emph{Software Engineer}
+
+			\begin{itemize} \itemsep -2pt
+				\item Integrated wholesale and retail sales channels for enterprise-level Shopify client as part of website rebuild.
+				\item Built a cross-platform mobile application for large healthcare client while maintaining HIPAA compliance.
+				\item Lead a zero downtime upgrade of a legacy Rails application from Rails 3 to Rails 5.
+			\end{itemize}
+
+		{\bf University of Minnesota Software Bootcamp, St. Paul, MN} \hfill \emph{January 2018 - June 2018} \\
+			\emph{Teaching Assistant}
+
+			\begin{itemize} \itemsep -2pt
+				\item Graded assignments, designed lessons, and gave 1 on 1 instruction to a cohort of 50 students.
+			\end{itemize}
+
+		\section{\centerline{EDUCATION}}
+
+		\vspace{6pt}
+		Full Stack Software Engineering Certification \hfill \emph{2017} \\
+    Prime Digital Academy
+
+		\vspace{6pt}
+		Pastoral Studies - Generals \hfill \emph{2013 - 2015} \\
+    North Central University
+
+		\section{\centerline{RELEVANT SKILLS}}
+		\vspace{6pt}
+
+			{\bf Languages:} Ruby, JavaScript, TypeScript, Lua, PHP, Java, Swift, HTML, CSS\\
+      {\bf Related Technologies:} Ruby on Rails, React, Redux, Vue, Cypress, React Native, CircleCI, Heroku Pipelines, AWS (S3, EC2, Lambda, API Gateway, IAM, CloudFront)
+
+	\end{resume}
 \end{document}
