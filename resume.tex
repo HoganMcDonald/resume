@@ -1,86 +1,200 @@
-\documentclass{res}
+%-------------------------
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
 
-\usepackage{pifont}
-\newsectionwidth{0pt}
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\renewcommand{\headrulewidth}{0pt}
-\setlength{\headheight}{24pt}
-\setlength{\headsep}{24pt}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
 \pagestyle{fancy}
-\cfoot{}
-\topmargin=-0.2in
-\usepackage[margin=0.2in]{geometry}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
-	\thispagestyle{empty} % no header
-	\centerline{\bf \Large{Hogan McDonald}}
-  \centerline{(651) 230-1107 | Minneapolis, MN | hogan.developer@gmail.com }
-  \centerline{Senior Software Engineer with 6 years of experience architecting, developing, testing, and maintaining}
-  \centerline{web applications in agency and startup settings}
 
-	\begin{resume}
-		\section{\centerline{EXPERIENCE}}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
-		{\bf Ephemeral Tattoos, Remote} \hfill \emph{July 2022 - Present} \\
-			\emph{Senior Software Engineer}
+\begin{center}
+    \textbf{\Huge \scshape Hogan McDonald} \\ \vspace{1pt}
+    \small 651-230-1107 $|$ \href{mailto:hogan.developer@gmail.com}{\underline{hogan.developer@gmail.com}} $|$
+    \href{https://linkedin.com/in/hogan-mcdonald}{\underline{linkedin.com/in/hogan-mcdonald}} $|$
+    \href{https://github.com/HoganMcDonald}{\underline{github.com/HoganMcDonald}} \\ \vspace{16pt}
+    \small Senior Software Engineer with 6 years of experience architecting, developing, testing, and maintaining \\ \vspace{1pt}
+    \small web applications in agency and startup settings
+\end{center}
 
-			\begin{itemize} \itemsep -2pt
-        \item Architected and led the development of all backend projects to support the needs of stakeholders on growth and operations teams
-        \item Designed and implemented a custom e-commerce model that was able to consolidate 3 separate payment systems used in our studios and on our website, increasing reliability and extensibility
-        \item Introduced observability tools, reducing response time from days to minutes, enabling prompt identification and resolution of performance bottlenecks and eliminating all sources of regular downtime
-        \item Automated time-intensive pre-appointment flow, saving hours of effort per appointment and improving overall efficiency
-        \item Spearheaded development of a group booking feature, leading to a doubled conversion rate and improved customer satisfaction
-        \item Streamlined the capture of tattoo images and associated meta-data from 3rd party service via automated upload and tagging, enhancing data management and accessibility
-			\end{itemize}
 
-		{\bf Soona, Minneapolis, MN} \hfill \emph{March 2020 - June 2022} \\
-			\emph{Senior Software Engineer}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
 
-			\begin{itemize} \itemsep -2pt
-        \item Created a custom scheduling library that balanced availability with utilization and fully automated appointment scheduling
-        \item Implemented a multi-stage data migration to introduce multi-tenancy with controlled access in support of onboarding enterprise clients
-        \item Developed a comprehensive Cypress test suite, cutting manual QA time in half, while improving product quality and reliability
-        \item Streamlined engineer onboarding with a 15-minute setup script for a development-ready environment, boosting new team members' productivity
-        \item Developed a robust notification system using the Slack API, automating common workflows and eliminating manual hand-offs between teams
-        \item Led the implementation of a standardized peer interview process for new hires, ensuring consistency in hiring decisions and promoting a collaborative and mentoring culture
-			\end{itemize}
+    \resumeSubheading
+      {Senior Software Engineer}{July 2022 - Present}
+      {Ephemeral Tattoos}{Brooklyn, NY - Remote}
+      \resumeItemListStart
+        \resumeItem{Architected and led the development of all backend projects to support the needs of stakeholders on growth and operations teams}
+        \resumeItem{Designed and implemented a custom e-commerce model that was able to consolidate 3 separate payment systems used in our studios and on our website, increasing reliability and extensibility}
+        \resumeItem{Introduced observability tools, reducing response time from days to minutes, enabling prompt identification and resolution of performance bottlenecks and eliminating all sources of regular downtime}
+        \resumeItem{Automated time-intensive pre-appointment flow, saving hours of effort per appointment and improving overall efficiency}
+        \resumeItem{Spearheaded development of a group booking feature, leading to a doubled conversion rate and improved customer satisfaction}
+        \resumeItem{Streamlined the capture of tattoo images and associated meta-data from 3rd party service via automated upload and tagging, enhancing data management and accessibility}
+      \resumeItemListEnd
 
-		{\bf Brandless, Minneapolis, MN} \hfill \emph{April 2019 - February 2020} \\
-			\emph{Software Engineer II}
+    \resumeSubheading
+      {Senior Software Engineer}{March 2020 - June 2022}
+      {Soona}{Minneapolis, MN - Remote}
+      \resumeItemListStart
+        \resumeItem{Created a scheduling library that balanced availability with utilization and fully automated appointment scheduling}
+        \resumeItem{Implemented a multi-stage data migration to introduce multi-tenancy with controlled access in support of onboarding enterprise clients}
+        \resumeItem{Developed a comprehensive Cypress test suite, cutting manual QA time in half, while improving product quality and reliability}
+        \resumeItem{Streamlined engineer onboarding with a 15-minute setup script for a development-ready environment, boosting new team members' productivity}
+        \resumeItem{Developed a robust notification system using the Slack API, automating common workflows and eliminating manual hand-offs between teams}
+        \resumeItem{Led the implementation of a standardized peer interview process for new hires, ensuring consistency in hiring decisions and promoting a collaborative and mentoring culture}
+      \resumeItemListEnd
 
-			\begin{itemize} \itemsep -2pt
-				\item Helped design and implement A/B tests designed to increase conversion of potential customers
-        \item Re-architected the checkout routing system that resulted in higher conversion rates while resolving multiple active bugs
-        \item Lead efforts to identify and resolve high priority incidents, including preventing a \$500,000 loss
-			\end{itemize}
+    \resumeSubheading
+      {Software Engineer II}{April 2019 - February 2020}
+      {Brandless}{Minneapolis, MN - Remote}
+      \resumeItemListStart
+				\resumeItem{Helped design and implement A/B tests designed to increase conversion of potential customers}
+        \resumeItem{Re-architected the checkout routing system that resulted in higher conversion rates while resolving multiple active bugs}
+        \resumeItem{Lead efforts to identify and resolve high priority incidents, including preventing a \$500,000 loss}
+      \resumeItemListEnd
 
-		{\bf Foundry, Minneapolis, MN} \hfill \emph{April 2018 - March 2019} \\
-			\emph{Software Engineer}
+    \resumeSubheading
+      {Software Engineer}{April 2018 - March 2019}
+      {Foundry}{Minneapolis, MN}
+      \resumeItemListStart
+				\resumeItem{Integrated wholesale and retail sales channels for enterprise-level Shopify client as part of website rebuild}
+				\resumeItem{Built a cross-platform mobile application for large healthcare client while maintaining HIPAA compliance}
+				\resumeItem{Lead a zero downtime upgrade of a legacy Rails application from Rails 3 to Rails 5}
+      \resumeItemListEnd
 
-			\begin{itemize} \itemsep -2pt
-				\item Integrated wholesale and retail sales channels for enterprise-level Shopify client as part of website rebuild
-				\item Built a cross-platform mobile application for large healthcare client while maintaining HIPAA compliance
-				\item Lead a zero downtime upgrade of a legacy Rails application from Rails 3 to Rails 5
-			\end{itemize}
+    \resumeSubheading
+      {Software Engineer}{January 2018 - June 2018}
+      {University of Minnesota Software Bootcamp}{St. Paul, MN}
 
-		{\bf University of Minnesota Software Bootcamp, St. Paul, MN} \hfill \emph{January 2018 - June 2018} \\
-			\emph{Teaching Assistant}
+  \resumeSubHeadingListEnd
 
-		\section{\centerline{SKILLS}}
 
-			{\bf Languages:} Ruby, JavaScript, TypeScript, Lua, PHP, Java, Swift, HTML, CSS\\
-			{\bf Frameworks:} Ruby on Rails, NextJS, React, Redux, Vue, Cypress, React Native, Node, Express, Sidekiq, Prisma\\
-			{\bf Databases:} Postgres, MongoDB, MySQL, Redis\\
-      {\bf Related Technologies:} Shopify, CircleCI, Heroku Pipelines, Elasticsearch, APM (Sentry, New Relic, Structured Logging), AWS (S3, EC2, Lambda, API Gateway, IAM, CloudFront, RDS, SageMaker)
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Ruby, JavaScript, TypeScript, SQL, PHP, Java, Swift, HTML, CSS, Lua} \\
+     \textbf{Frameworks}{: Ruby on Rails, NextJS, React, Redux, Vue, Cypress, React Native, Node, Express, Sidekiq, Prisma} \\
+     \textbf{Databases}{: Postgres, MongoDB, MySQL, Redis} \\
+     \textbf{Related Technologies}{: Shopify, CircleCI, Heroku Pipelines, Elasticsearch, APM (Sentry, New Relic, Structured Logging), AWS (S3, EC2, Lambda, API Gateway, IAM, CloudFront, RDS, SageMaker}
+    }}
+ \end{itemize}
 
-		\section{\centerline{EDUCATION}}
 
-		\vspace{6pt}
-		Full Stack Software Engineering Certification \hfill \emph{2017} \\
-    Prime Digital Academy
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Prime Digital Academy}{Minneapolis, MN}
+      {Full Stack Software Engineering Certification}{2017}
+    \resumeSubheading
+      {North Central University}{Minneapolis, MN}
+      {Pastoral Studies - Generals}{2013 - 2015}
+  \resumeSubHeadingListEnd
 
-		\vspace{6pt}
-		Pastoral Studies - Generals \hfill \emph{2013 - 2015} \\
-    North Central University
-	\end{resume}
+
+%-------------------------------------------
 \end{document}
