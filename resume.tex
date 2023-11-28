@@ -119,41 +119,50 @@
 \end{center}
 
 
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Ruby, JavaScript, TypeScript, SQL, HTML, CSS} \\
+     \textbf{Frameworks}{: Ruby on Rails, NextJS, React, Redux, Vue, Cypress, Node, Express, Sidekiq} \\
+     \textbf{Databases}{: Postgres, MongoDB, MySQL, Redis} \\
+     \textbf{Related Technologies}{: CI/CD, Ansible, APM (Sentry, New Relic, Structured Logging), AWS (S3, EC2, Lambda, API Gateway, IAM, CloudFront, RDS, SageMaker)}
+    }}
+ \end{itemize}
+
+
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Senior Software Engineer}{July 2022 - Present}
+      {Senior Software Engineer}{July 2022 - September 2023}
       {Ephemeral Tattoos}{Brooklyn, NY - Remote}
       \resumeItemListStart
-        \resumeItem{Architected and led the development of all backend projects to support the needs of stakeholders on growth and operations teams}
-        \resumeItem{Designed and implemented a custom e-commerce model that was able to consolidate 3 separate payment systems used in our studios and on our website, increasing reliability and extensibility}
-        \resumeItem{Introduced observability tools, reducing response time from days to minutes, enabling prompt identification and resolution of performance bottlenecks and eliminating all sources of regular downtime}
-        \resumeItem{Automated time-intensive pre-appointment flow, saving hours of effort per appointment and improving overall efficiency}
-        \resumeItem{Spearheaded development of a group booking feature, leading to a doubled conversion rate and improved customer satisfaction}
-        \resumeItem{Streamlined the capture of tattoo images and associated meta-data from 3rd party service via automated upload and tagging, enhancing data management and accessibility}
+        \resumeItem{Increased developer productivity and eliminated the need for a dedicated designer, resulting in a 70\% reduced feature turnaround time, by implementing a design library of components through ViewComponents and Hotwire in Rails 7}
+        \resumeItem{Formalized the process for identifying and fixing bugs and performance bottlenecks in production, improving system uptime by 90\%, through the implementation of Sentry and New Relic in our Rails and Node.js projects}
+        \resumeItem{Automated the capture and organizing of customer appointment information, eliminating 3+ hours of manual work for each appointment, by converting a 400 column spreadsheet into TypeForms, services in Rails, and a data model in PostgreSQL}
+        \resumeItem{Developed a full-stack feature that allowed customers to book group appointments, which increased conversion by 100\% by integrating a third-party scheduling tool, background jobs in SideKiq, and a custom UI built in vanilla JavaScript}
+        \resumeItem{Consolidated 3 separate checkout flows and introduced tipping, reducing the need for manager intervention by 100\%, by leveraging Stripe and the Pay gem in Ruby along with a custom card terminal implementation}
       \resumeItemListEnd
 
     \resumeSubheading
       {Senior Software Engineer}{March 2020 - June 2022}
       {Soona}{Minneapolis, MN - Remote}
       \resumeItemListStart
-        \resumeItem{Created a scheduling library that balanced availability with utilization and fully automated appointment scheduling}
-        \resumeItem{Implemented a multi-stage data migration to introduce multi-tenancy with controlled access in support of onboarding enterprise clients}
-        \resumeItem{Developed a comprehensive Cypress test suite, cutting manual QA time in half, while improving product quality and reliability}
-        \resumeItem{Streamlined engineer onboarding with a 15-minute setup script for a development-ready environment, boosting new team members' productivity}
-        \resumeItem{Developed a robust notification system using the Slack API, automating common workflows and eliminating manual hand-offs between teams}
-        \resumeItem{Led the implementation of a standardized peer interview process for new hires, ensuring consistency in hiring decisions and promoting a collaborative and mentoring culture}
+        \resumeItem{Planned and led the migration of over 3 million images from a user-centric to a shared multi-user account architecture, which enabled the onboarding of enterprise-level clients and helped secure a \$35 million series B}
+        \resumeItem{Automated appointment scheduling and rescheduling, resulting in improved efficiency and a 30\% reduction in the rescheduling rate, by creating a custom scheduling library in Ruby that leveraged a pre-filled Redis cache to quickly suggest appointment times and assign staff}
+        \resumeItem{Created a custom SocketIO microservice, accompanying Ruby library, and a shared Redis instance that collectively managed thousands of concurrent websocket connections, and reduced the effort needed to build real-time features from weeks to minutes}
+        \resumeItem{Introduced end-to-end testing for all client-facing user flows, reducing the number of documented bugs in each release by 50\%, by writing and deploying a suite of Cypress tests that integrated with a Rails backend and ran on GitHub Actions}
       \resumeItemListEnd
 
     \resumeSubheading
       {Software Engineer II}{April 2019 - February 2020}
       {Brandless}{Minneapolis, MN - Remote}
       \resumeItemListStart
-				\resumeItem{Helped design and implement A/B tests designed to increase conversion of potential customers}
+        \resumeItem{Led a team of engineers, CX associates, and product managers in identifying and fixing a bug that would have resulted in a \$500k loss through the use of structured logging and TDD in a Rails 6 app built on Spree}
         \resumeItem{Re-architected the checkout routing system that resulted in higher conversion rates while resolving multiple active bugs}
-        \resumeItem{Lead efforts to identify and resolve high priority incidents, including preventing a \$500,000 loss}
+        \resumeItem{Improved the reliability of e-commerce checkout process, which improved conversion and eliminated 4 known bugs, by re-architecting the checkout routing system as a state machine in Ruby and creating a new suite of RSpec tests}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -172,25 +181,13 @@
   \resumeSubHeadingListEnd
 
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Ruby, JavaScript, TypeScript, SQL, HTML, CSS} \\
-     \textbf{Frameworks}{: Ruby on Rails, NextJS, React, Redux, Vue, Cypress, Node, Express, Sidekiq} \\
-     \textbf{Databases}{: Postgres, MongoDB, MySQL, Redis} \\
-     \textbf{Related Technologies}{: CI/CD, APM (Sentry, New Relic, Structured Logging), AWS (S3, EC2, Lambda, API Gateway, IAM, CloudFront, RDS, SageMaker)}
-    }}
- \end{itemize}
-
-
 %-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Prime Digital Academy}{Minneapolis, MN}
-      {Full Stack Software Engineering Certification}{2017}
-  \resumeSubHeadingListEnd
+% \section{Education}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Prime Digital Academy}{Minneapolis, MN}
+%       {Full Stack Software Engineering Certification}{2017}
+%   \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
