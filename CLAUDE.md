@@ -59,9 +59,7 @@ The repository serves as both a resume source and a resume generation platform, 
 **Technical Skills Best Practices:**
 - Organize by logical categories (Languages, Frameworks, Cloud/DevOps, Databases, etc.)
 - List most relevant and strongest skills first within each category
-- Include version numbers for frameworks when relevant (e.g., "Rails 7", "React 18")
 - Match skills to job requirements - prioritize technologies mentioned in job posting
-- Be honest about skill levels - only include technologies you can confidently discuss
 - Use consistent naming conventions (e.g., "JavaScript/TypeScript" not "JS/TS")
 
 ### Education Section Template
@@ -70,13 +68,6 @@ The repository serves as both a resume source and a resume generation platform, 
   {Institution Name}{Location}
   {Degree/Certification Title}{Year}
 ```
-
-**Education Best Practices:**
-- List most recent/relevant education first
-- Include relevant coursework, projects, or honors if space permits and adds value
-- For bootcamps or certifications, emphasize practical skills gained
-- Keep brief if you have significant work experience
-- Include ongoing education or certifications that show continued learning
 
 ### Header Template
 ```latex
