@@ -24,14 +24,16 @@ The repository serves as both a resume source and a resume generation platform, 
 
 ## Templates
 
+**Placeholder Format:** Use `PLACEHOLDER_NAME` format with underscores (not square brackets) to avoid LaTeX math mode conflicts.
+
 ### Experience Section Template
 ```latex
 \resumeSubheading
-  {Job Title}{Start Date – End Date}
-  {Company Name}{Location}
+  {JOB_TITLE}{START_DATE – END_DATE}
+  {COMPANY_NAME}{LOCATION}
   \resumeItemListStart
-    \resumeItem{Achievement with quantified impact and technical details}
-    \resumeItem{Another accomplishment with metrics and technologies used}
+    \resumeItem{ACHIEVEMENT_WITH_QUANTIFIED_IMPACT_AND_TECHNOLOGIES}
+    \resumeItem{ANOTHER_ACCOMPLISHMENT_WITH_METRICS_AND_TECHNOLOGIES}
   \resumeItemListEnd
 ```
 
@@ -50,8 +52,8 @@ The repository serves as both a resume source and a resume generation platform, 
 \section{Technical Skills}
   \begin{itemize}[leftmargin=0.15in,label={}]
     \small{\item{
-      \textbf{Category:} Technology, Framework, Tool \\
-      \textbf{Another Category:} More technologies and tools \\
+      \textbf{SKILL_CATEGORY_1:} RELEVANT_TECHNOLOGIES_FOR_JOB \\
+      \textbf{SKILL_CATEGORY_2:} RELEVANT_TECHNOLOGIES_FOR_JOB \\
     }}
   \end{itemize}
 ```
@@ -65,18 +67,19 @@ The repository serves as both a resume source and a resume generation platform, 
 ### Education Section Template
 ```latex
 \resumeSubheading
-  {Institution Name}{Location}
-  {Degree/Certification Title}{Year}
+  {INSTITUTION_NAME}{LOCATION}
+  {DEGREE_OR_CERTIFICATION}{YEAR}
 ```
 
 ### Header Template
 ```latex
 \begin{center}
-    \textbf{\Huge \scshape Full Name} \\ \vspace{1pt}
-    \small Phone $|$ \href{mailto:email}{\underline{email}} $|$
-    \href{https://linkedin.com/in/profile}{\underline{linkedin.com/in/profile}} $|$
-    \href{https://github.com/username}{\underline{github.com/username}} \\ \vspace{16pt}
-    \small Professional summary highlighting years of experience and key specializations
+    \textbf{\Huge \scshape FULL_NAME} \\ \vspace{1pt}
+    \small PHONE $|$ \href{mailto:EMAIL}{\underline{EMAIL}} $|$
+    \href{https://linkedin.com/in/LINKEDIN_HANDLE}{\underline{linkedin.com/in/LINKEDIN_HANDLE}} $|$
+    \href{https://github.com/GITHUB_HANDLE}{\underline{github.com/GITHUB_HANDLE}} \\ \vspace{16pt}
+    \small PROFESSIONAL_SUMMARY_LINE_1 \\ \vspace{1pt}
+    \small PROFESSIONAL_SUMMARY_LINE_2
 \end{center}
 ```
 
