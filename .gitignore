@@ -23,8 +23,6 @@
 *.swo
 *~
 
-.claude/
-
 # Keep main files
 !resume.tex
 !resume.pdf
