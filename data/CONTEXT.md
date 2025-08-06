@@ -142,6 +142,32 @@
 - Built a cross-platform mobile application using React Native for large healthcare client while maintaining HIPAA compliance
 - Lead a zero downtime upgrade of a legacy Rails application for regional home appraisal company from Rails 3 to Rails 5
 
+### Independent Contractor - Software Developer
+**Duration:** 2018 - 2021 (Multiple Projects)
+**Location:** Minneapolis, MN - Remote
+
+**Technology:**
+- Ruby on Rails
+- JavaScript
+- React
+- Shopify
+- HTML/CSS
+- WordPress
+
+**Projects:**
+
+**Playworks (2021)**
+- Designed and built custom fundraising software that included photo uploading and social features
+
+**USA Power Lifting (2021)**
+- Collaborated with partner to design and develop custom tournament registration and implementation software
+
+**Foundry (2020)**
+- Consulted on the technical implementation of a Shopify enterprise website rebuild
+
+**Forward Motion Therapy (2018)**
+- Designed, built, and deployed custom website for therapy private practice
+
 ### University of Minnesota Software Bootcamp - Teaching Assistant
 **Duration:** January 2018 - June 2018
 **Location:** St. Paul, MN
