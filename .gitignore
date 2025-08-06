@@ -1,3 +1,30 @@
-resume.*
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.nav
+*.snm
+*.vrb
+
+# macOS files
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+
+.claude/
+
+# Keep main files
 !resume.tex
 !resume.pdf
