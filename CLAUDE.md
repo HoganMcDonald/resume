@@ -27,6 +27,15 @@ The repository serves as both a resume source and a resume generation platform, 
 **Placeholder Format:** Use `PLACEHOLDER_NAME` format with underscores (not square brackets) to avoid LaTeX math mode conflicts.
 
 ### Experience Section Template
+
+**MANDATORY EXPERIENCE TO INCLUDE (ALL positions must appear on EVERY resume):**
+1. Reforge - Senior Software Engineer (Jan 2024 – Present)
+2. Ephemeral Tattoos - Senior Software Engineer (Jul 2022 – Sep 2023)
+3. Soona - Senior Software Engineer (Mar 2020 – Jul 2022)
+4. Brandless - Software Engineer II (Apr 2018 – Mar 2019)
+8. Freelance Software Engineer (2018 – 2021)
+9. Teaching Assistant - University of Minnesota Coding Bootcamp (Jan 2018 – Jun 2018)
+
 ```latex
 \resumeSubheading
   {JOB_TITLE}{START_DATE – END_DATE}
@@ -109,8 +118,11 @@ The repository serves as both a resume source and a resume generation platform, 
 
 **For Each Application:**
 1. **Analyze Job Posting**: Extract key requirements, technologies, culture indicators
-2. **Match & Mirror**: Align your experience bullets to job requirements
-3. **Reorder by Relevance**: Most relevant experiences and skills first
-4. **Customize Summary**: Directly address the role's primary needs
-5. **Verify Keywords**: Ensure critical terms appear 2-3 times naturally
-6. **Cultural Fit**: For startups, emphasize passion, adaptability, impact
+2. **Include ALL Work Experience**: ALWAYS include all companies (Reforge, Ephemeral Tattoos, Soona, Brandless, Foundry) plus Freelance work and Teaching Assistant role - never omit any positions
+3. **Match & Mirror**: Align your experience bullets to job requirements while keeping all roles
+4. **Reorder by Relevance**: Adjust bullet points within each role to highlight most relevant achievements first
+5. **Customize Summary**: Directly address the role's primary needs
+6. **Verify Keywords**: Ensure critical terms appear 2-3 times naturally
+7. **Cultural Fit**: For startups, emphasize passion, adaptability, impact
+
+**IMPORTANT:** The resume should ALWAYS be 2 full pages and include ALL work history. Tailor by adjusting bullet points and emphasis, not by removing experiences.
