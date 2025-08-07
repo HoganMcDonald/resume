@@ -20,13 +20,13 @@
 
 
 %----------FONT OPTIONS----------
-% sans-serif
+% ATS-friendly sans-serif fonts (2025 best practice)
 % \usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
 % \usepackage[default]{sourcesanspro}
 
-% serif
+% Avoid serif fonts for ATS compatibility
 % \usepackage{CormorantGaramond}
 % \usepackage{charter}
 
@@ -104,9 +104,13 @@
 \begin{document}
 
 %----------HEADING----------
-% AI Agent Instructions: Replace with actual contact information and professional summary
-% Contact info should be separated by $|$ and use \href for links with \underline formatting
-% Professional summary should be 1-2 lines highlighting years of experience and key specializations matching the job
+% 2025 Best Practices: Professional summary should be 2-4 sentences
+% - Lead with title matching target role
+% - State years of experience and primary tech stack
+% - Highlight scale of impact (users, systems, revenue)
+% - Include leadership/mentorship for senior roles
+% - Mention domain expertise if relevant
+% Contact format: Name | Email | Phone | LinkedIn | GitHub (optionally portfolio)
 
 \begin{center}
     \textbf{\Huge \scshape FULL\_NAME} \\ \vspace{1pt}
@@ -114,16 +118,20 @@
     \href{https://linkedin.com/in/LINKEDIN\_HANDLE}{\underline{linkedin.com/in/LINKEDIN\_HANDLE}} $|$
     \href{https://github.com/GITHUB\_HANDLE}{\underline{github.com/GITHUB\_HANDLE}} \\ \vspace{16pt}
     \small PROFESSIONAL\_SUMMARY\_LINE\_1 \\ \vspace{1pt}
-    \small PROFESSIONAL\_SUMMARY\_LINE\_2
+    \small PROFESSIONAL\_SUMMARY\_LINE\_2 \\ \vspace{1pt}
+    \small PROFESSIONAL\_SUMMARY\_LINE\_3\_OPTIONAL
 \end{center}
 
 
 %-----------EXPERIENCE-----------
-% AI Agent Instructions: Select 4-6 most relevant work experiences from data/CONTEXT.md
-% Prioritize experiences that match job requirements and demonstrate required skills
-% Include 3-5 bullet points per role focusing on quantified achievements
-% Use strong action verbs and include specific technologies mentioned in job posting
-% Escape special characters: \$ for $, \textgreater for >, \textless for <, \& for &
+% 2025 XYZ Formula: "Accomplished X by doing Y, resulting in Z"
+% - 3-5 bullets per role (prefer 3-4), each 1-2 lines max (ideally 1 line)
+% - Lead with strongest/most relevant achievements
+% - Include at least one leadership/mentorship bullet for senior roles
+% - Show technologies in context, not just as lists
+% - All past tense for consistency
+% - Quantify everything: percentages, dollar amounts, scale (users/requests)
+% - Escape special characters: \$ for $, \textgreater for >, \textless for <, \& for &
 
 \section{Experience}
   \resumeSubHeadingListStart
@@ -162,19 +170,21 @@
 
 
 %-----------TECHNICAL SKILLS-----------
-% AI Agent Instructions: Select and organize skills from data/CONTEXT.md that match job requirements
-% Prioritize technologies mentioned in the job posting
-% Group by logical categories (Languages, Frameworks, Cloud/DevOps, etc.)
-% List most relevant skills first within each category
+% 2025 Best Practices: Quality over quantity (6-10 core skills max)
+% - Mirror exact terminology from job posting
+% - Group by: Languages, Frameworks, Cloud/DevOps, Databases, Tools
+% - Most relevant skills first in each category
+% - Only list skills you'd confidently discuss in interview
+% - Ensure these skills also appear in experience bullets for context
 
 \section{Technical Skills}
   \begin{itemize}[leftmargin=0.15in,label={}]
     \small{\item{
-      \textbf{SKILL\_CATEGORY\_1:} RELEVANT\_TECHNOLOGIES\_FOR\_JOB \\
-      \textbf{SKILL\_CATEGORY\_2:} RELEVANT\_TECHNOLOGIES\_FOR\_JOB \\
-      \textbf{SKILL\_CATEGORY\_3:} RELEVANT\_TECHNOLOGIES\_FOR\_JOB \\
-      \textbf{SKILL\_CATEGORY\_4:} RELEVANT\_TECHNOLOGIES\_FOR\_JOB \\
-      \textbf{SKILL\_CATEGORY\_5:} RELEVANT\_TECHNOLOGIES\_FOR\_JOB
+      \textbf{Languages:} PROGRAMMING\_LANGUAGES\_MOST\_RELEVANT\_FIRST \\
+      \textbf{Frameworks:} WEB\_AND\_APP\_FRAMEWORKS \\
+      \textbf{Cloud/DevOps:} AWS\_DOCKER\_KUBERNETES\_CI\_CD \\
+      \textbf{Databases:} SQL\_NOSQL\_RELEVANT\_TO\_JOB \\
+      \textbf{Tools \& Methodologies:} GIT\_AGILE\_TDD\_RELEVANT\_TOOLS
     }}
   \end{itemize}
 
@@ -191,6 +201,21 @@
       {DEGREE\_OR\_CERTIFICATION}{YEAR}
     % Add additional education if relevant to position
   \resumeSubHeadingListEnd
+
+
+%-----------OPTIONAL: PROJECTS/ADDITIONAL (for Startup Roles)-----------
+% Include this section ONLY for startup/founding engineer positions
+% Demonstrates passion, entrepreneurial spirit, and domain expertise
+% Examples: Open source contributions, side projects, hackathons, tech community involvement
+% Keep very brief - 1-2 lines total
+
+% \section{Additional}
+% \begin{itemize}[leftmargin=0.15in,label={}]
+%   \small{\item{
+%     \textbf{Open Source:} PROJECT\_NAME\_WITH\_GITHUB\_STARS\_OR\_IMPACT \\
+%     \textbf{Community:} TECH\_MEETUP\_ORGANIZATION\_OR\_SPEAKING
+%   }}
+% \end{itemize}
 
 
 %-------------------------------------------

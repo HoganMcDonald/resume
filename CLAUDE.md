@@ -37,15 +37,20 @@ The repository serves as both a resume source and a resume generation platform, 
   \resumeItemListEnd
 ```
 
-**Work Experience Best Practices:**
-- Lead with strong action verbs: "Architected", "Implemented", "Optimized", "Led", "Created", "Streamlined"
-- Include quantified metrics: percentages, dollar amounts, time savings, performance improvements
-- Mention specific technologies, frameworks, and tools used
-- Focus on business impact and outcomes, not just technical tasks
-- Structure: [Action] + [What] + [How/With what tech] + [Quantified result/impact]
-- Tailor bullet points to match job requirements and highlight relevant experience
-- Keep bullets concise but detailed enough to demonstrate expertise
-- Use past tense for previous and current roles
+**Work Experience Best Practices (2025 Standards):**
+- **XYZ Formula**: Structure bullets as "Accomplished X by doing Y, resulting in Z" (Google's proven format)
+- **Action Verbs**: Lead with strong, varied verbs: "Architected", "Spearheaded", "Accelerated", "Bootstrapped", "Resolved"
+- **Quantify Everything**: Include specific metrics - percentages, dollar amounts, time savings, scale (users, requests, data volume)
+- **Technologies in Context**: Mention specific tech stacks within achievement bullets, not just as a list
+- **Leadership at Senior Level**: Include at least one bullet about mentoring, team leadership, or cross-functional collaboration
+- **End-to-End Ownership**: Highlight complete project ownership from concept to deployment (especially for startups)
+- **Business Impact Focus**: Connect technical work to business outcomes (revenue, user retention, cost savings)
+- **Bullet Structure**: 
+  - Keep to 1-2 lines maximum per bullet (ideally one line)
+  - 3-5 bullets per role (no more than 5)
+  - Most impactful/relevant achievements first
+- **Tense**: Use past tense for all roles (including current) for consistency
+- **Startup-Specific**: For startup roles, emphasize versatility, wearing multiple hats, and rapid iteration
 
 ### Technical Skills Section Template
 ```latex
@@ -58,11 +63,16 @@ The repository serves as both a resume source and a resume generation platform, 
   \end{itemize}
 ```
 
-**Technical Skills Best Practices:**
-- Organize by logical categories (Languages, Frameworks, Cloud/DevOps, Databases, etc.)
-- List most relevant and strongest skills first within each category
-- Match skills to job requirements - prioritize technologies mentioned in job posting
-- Use consistent naming conventions (e.g., "JavaScript/TypeScript" not "JS/TS")
+**Technical Skills Best Practices (2025 Standards):**
+- **Keyword Matching**: Mirror exact terminology from job posting (e.g., "React.js" if that's what they use)
+- **Quality Over Quantity**: 6-10 core skills maximum - only list what you'd confidently discuss in interview
+- **Strategic Categorization**: Group by: Languages, Frameworks, Cloud/DevOps, Databases, Tools
+- **Relevance First**: List most relevant skills to the job first within each category
+- **Consistent Naming**: Use industry-standard names (e.g., "JavaScript/TypeScript" not "JS/TS")
+- **Context in Experience**: Skills should also appear in work experience bullets to show practical application
+- **Avoid Outdated Tech**: Omit obsolete or irrelevant technologies unless specifically required
+- **Methodologies**: Include Agile/Scrum, TDD, CI/CD if relevant to role
+- **AI/Automation**: Mention ML frameworks or AI tools only if genuinely experienced and relevant
 
 ### Education Section Template
 ```latex
@@ -83,12 +93,62 @@ The repository serves as both a resume source and a resume generation platform, 
 \end{center}
 ```
 
-**Header Best Practices:**
-- Keep professional summary concise (1-2 lines)
-- Highlight years of experience and 2-3 key specializations
-- Ensure all links are functional and professional
-- Use consistent formatting for contact information
-- Professional summary should match the target role's requirements
-- Consider adding location if remote work isn't mentioned in job posting
+**Header Best Practices (2025 Standards):**
+- **Professional Summary (2-4 sentences)**:
+  - Lead with title matching target role (e.g., "Staff Full-Stack Engineer")
+  - State years of experience and primary tech stack
+  - Highlight scale of impact (users served, systems built)
+  - Mention leadership/mentorship for senior roles
+  - Include domain expertise if relevant (fintech, healthtech)
+  - Example: "Results-driven Staff Software Engineer with 10+ years building scalable Ruby on Rails/TypeScript platforms. Architected fintech systems serving 5M+ users, led teams of 5-10 engineers."
+- **Contact Format**: Name, Email, Phone, LinkedIn, GitHub (optionally portfolio)
+- **Location**: Include city/state for local roles, omit for remote positions
+- **Links**: Ensure GitHub showcases relevant, quality code samples
+- **Avoid**: Generic objectives, clichés ("team player"), what you want vs. what you offer
 
 **Note:** Remember to escape special LaTeX characters: `\$` for dollar signs, `\textgreater` and `\textless` for comparison operators, `\&` for ampersands.
+
+## Resume Format & ATS Optimization (2025)
+
+**Structure Requirements:**
+- **Length**: 1 page ideal, 2 pages maximum for 10+ years experience
+- **Format**: Clean, single-column layout with standard section headers
+- **File**: PDF with selectable text (not scanned), named professionally (FirstnameLastname_Resume.pdf)
+- **Font**: Sans-serif (Calibri, Arial) for ATS compatibility
+- **Sections Order**: Header → Summary → Experience → Skills → Education
+- **Margins**: Standard margins for readability, no text in headers/footers
+
+**ATS Best Practices:**
+- **Keyword Optimization**: 
+  - Mirror exact job posting terminology 2-3 times throughout resume
+  - Include both acronyms and full terms (e.g., "CI/CD (Continuous Integration/Continuous Delivery)")
+  - Place critical keywords in multiple sections (summary, skills, experience)
+- **Standard Headers**: Use conventional section titles ("Professional Experience" not creative alternatives)
+- **Simple Formatting**: Avoid tables, text boxes, graphics, or complex layouts
+- **Bullet Points**: Use standard bullets (●, ○, ■) not special characters
+
+## Startup & Founding Engineer Focus
+
+**Key Differentiators for Startup Roles:**
+- **Full-Stack Ownership**: Emphasize end-to-end project delivery
+- **Rapid Iteration**: Highlight ability to ship quickly and iterate based on feedback
+- **Multiple Hats**: Show versatility across frontend, backend, DevOps, even product
+- **Scrappy Solutions**: Include examples of doing more with less, cost optimization
+- **User Impact**: Direct connection between your work and user/business metrics
+- **Early-Stage Experience**: If applicable, mention employee number, founding team role
+- **Entrepreneurial**: Include side projects, open source, hackathons
+
+**Additional Sections (Optional):**
+- **Projects**: Live demos, GitHub repos with significant stars/activity
+- **Community**: Tech meetup organization, conference speaking, mentoring
+- **Domain Interest**: Side projects or experience in the startup's industry
+
+## Tailoring Process
+
+**For Each Application:**
+1. **Analyze Job Posting**: Extract key requirements, technologies, culture indicators
+2. **Match & Mirror**: Align your experience bullets to job requirements
+3. **Reorder by Relevance**: Most relevant experiences and skills first
+4. **Customize Summary**: Directly address the role's primary needs
+5. **Verify Keywords**: Ensure critical terms appear 2-3 times naturally
+6. **Cultural Fit**: For startups, emphasize passion, adaptability, impact
