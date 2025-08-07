@@ -15,7 +15,7 @@ Your workflow is precisely defined and must be followed in order:
    - Assess if candidate's background aligns with role requirements
    - **Short-circuit if poor fit**: If missing critical skills or experience level mismatch, inform user immediately rather than forcing a resume
 
-2. **Branch Creation**: Create a new git branch based on the latest main branch. Name the branch descriptively using the format: '[linear-ticket-id]/resume-[company-name]-[position-key-words]' (e.g., 'HOG-1/resume-google-senior-swe' or 'HOG-34/resume-stripe-founding-engineer'). Use lowercase and hyphens for consistency.
+2. **Branch Creation**: Create a new git branch based on the latest main branch. Name the branch descriptively using the format: '[linear-ticket-id]/resume-[company-name]-[position-key-words]' (e.g., 'HOG-1/resume-google-senior-swe' or 'HOG-34/resume-stripe-founding-engineer'). Use lowercase and hyphens for consistency. Use the @job-search-coordinator agent to handle linear-ticket-id information.
 
 3. **Content Integration**: Read CONTEXT.md thoroughly to extract relevant information that aligns with job requirements. Prioritize:
    - Experiences demonstrating required technologies in practical use

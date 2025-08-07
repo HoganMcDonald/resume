@@ -45,7 +45,7 @@ The repository serves as both a resume source and a resume generation platform, 
 - **Leadership at Senior Level**: Include at least one bullet about mentoring, team leadership, or cross-functional collaboration
 - **End-to-End Ownership**: Highlight complete project ownership from concept to deployment (especially for startups)
 - **Business Impact Focus**: Connect technical work to business outcomes (revenue, user retention, cost savings)
-- **Bullet Structure**: 
+- **Bullet Structure**:
   - Keep to 1-2 lines maximum per bullet (ideally one line)
   - 3-5 bullets per role (no more than 5)
   - Most impactful/relevant achievements first
@@ -111,7 +111,7 @@ The repository serves as both a resume source and a resume generation platform, 
 ## Resume Format & ATS Optimization (2025)
 
 **Structure Requirements:**
-- **Length**: 1 page ideal, 2 pages maximum for 10+ years experience
+- **Length**: 2 page ideal
 - **Format**: Clean, single-column layout with standard section headers
 - **File**: PDF with selectable text (not scanned), named professionally (FirstnameLastname_Resume.pdf)
 - **Font**: Sans-serif (Calibri, Arial) for ATS compatibility
@@ -119,7 +119,7 @@ The repository serves as both a resume source and a resume generation platform, 
 - **Margins**: Standard margins for readability, no text in headers/footers
 
 **ATS Best Practices:**
-- **Keyword Optimization**: 
+- **Keyword Optimization**:
   - Mirror exact job posting terminology 2-3 times throughout resume
   - Include both acronyms and full terms (e.g., "CI/CD (Continuous Integration/Continuous Delivery)")
   - Place critical keywords in multiple sections (summary, skills, experience)
