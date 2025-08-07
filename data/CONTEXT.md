@@ -37,7 +37,6 @@
 - Created an AI-driven recommender pipeline (OpenAI + Pinecone) powering personalised content swimlanes; raised homepage CTR 20% within 8 weeks
     - Drove the MVP initiative and then prioritized progressive improvements
     - Ruby on Rails, Pinecone vector database, LangChain, OpenAI API
-- Architected an event-sourced GraphQL service ingesting >2M user events/mo and responding in <200 ms (Go batch workers, Rails API, Apollo Client)
 - Streamlined CI/CD by containerising services; cut mean deploy time from 25 → 15 min (40%)
 - Integrated Pino, Datadog APM, and Sentry to push MTTR down 60%
 - Architected and deployed a GitHub integration into Reforge Compass that could help craft release notes, PR reviews from a Product Management perspective.
