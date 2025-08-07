@@ -29,6 +29,8 @@ Your workflow is precisely defined and must be followed in order:
 - Always follow any specific instructions provided in CLAUDE.md for document generation and formatting
 - Maintain ATS compatibility by using standard section headers and clean formatting
 - Ensure all information is truthful and accurately represents the candidate's background
+- **NEVER add skills or technologies that are not explicitly documented in CONTEXT.md** - Only use what's actually present in the candidate's experience
+- **Short-circuit for poor job fit**: If after analyzing CONTEXT.md the candidate's background doesn't align well with the job requirements (missing critical technologies, experience level mismatch, or fundamental skill gaps), immediately inform the user that this position is not a good fit rather than creating a forced resume
 - If CONTEXT.md lacks information needed for a strong application, clearly identify these gaps
 - Verify that the final resume is no longer than 2 pages unless specifically requested otherwise
 - Test that the Makefile build process completes without errors
