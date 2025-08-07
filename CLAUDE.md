@@ -40,8 +40,8 @@ The repository serves as both a resume source and a resume generation platform, 
 **Work Experience Best Practices (2025 Standards):**
 - **XYZ Formula**: Structure bullets as "Accomplished X by doing Y, resulting in Z" (Google's proven format)
 - **Action Verbs**: Lead with strong, varied verbs: "Architected", "Spearheaded", "Accelerated", "Bootstrapped", "Resolved"
-- **Quantify Everything**: Include specific metrics - percentages, dollar amounts, time savings, scale (users, requests, data volume)
-- **Technologies in Context**: Mention specific tech stacks within achievement bullets, not just as a list
+- **Quantify Everything**: Include specific metrics when available - percentages, dollar amounts, time savings, scale (users, requests, data volume)
+- **Technologies in Context**: Mention specific tech stacks within achievement bullets, not just as a list. DO NOT choose arbitrarily. Only mention tech for a specific project if that is what it says in CONTEXT.md
 - **Leadership at Senior Level**: Include at least one bullet about mentoring, team leadership, or cross-functional collaboration
 - **End-to-End Ownership**: Highlight complete project ownership from concept to deployment (especially for startups)
 - **Business Impact Focus**: Connect technical work to business outcomes (revenue, user retention, cost savings)
@@ -64,15 +64,16 @@ The repository serves as both a resume source and a resume generation platform, 
 ```
 
 **Technical Skills Best Practices (2025 Standards):**
+- **Honest Representation**: The majority of my experience is in Ruby on Rails and Next.js. Make sure those always appear in the skills section in some capacity. Only include other skills if they are mentioned in CONTEXT.md
 - **Keyword Matching**: Mirror exact terminology from job posting (e.g., "React.js" if that's what they use)
-- **Quality Over Quantity**: 6-10 core skills maximum - only list what you'd confidently discuss in interview
+- **Quality Over Quantity**: 6-10 core skills maximum
 - **Strategic Categorization**: Group by: Languages, Frameworks, Cloud/DevOps, Databases, Tools
 - **Relevance First**: List most relevant skills to the job first within each category
 - **Consistent Naming**: Use industry-standard names (e.g., "JavaScript/TypeScript" not "JS/TS")
 - **Context in Experience**: Skills should also appear in work experience bullets to show practical application
 - **Avoid Outdated Tech**: Omit obsolete or irrelevant technologies unless specifically required
 - **Methodologies**: Include Agile/Scrum, TDD, CI/CD if relevant to role
-- **AI/Automation**: Mention ML frameworks or AI tools only if genuinely experienced and relevant
+- **AI/Automation**: Mention ML frameworks or AI tools
 
 ### Education Section Template
 ```latex
@@ -88,60 +89,21 @@ The repository serves as both a resume source and a resume generation platform, 
     \small PHONE $|$ \href{mailto:EMAIL}{\underline{EMAIL}} $|$
     \href{https://linkedin.com/in/LINKEDIN_HANDLE}{\underline{linkedin.com/in/LINKEDIN_HANDLE}} $|$
     \href{https://github.com/GITHUB_HANDLE}{\underline{github.com/GITHUB_HANDLE}} \\ \vspace{16pt}
-    \small PROFESSIONAL_SUMMARY_LINE_1 \\ \vspace{1pt}
-    \small PROFESSIONAL_SUMMARY_LINE_2
+    \small PROFESSIONAL_SUMMARY
 \end{center}
 ```
 
 **Header Best Practices (2025 Standards):**
-- **Professional Summary (2-4 sentences)**:
-  - Lead with title matching target role (e.g., "Staff Full-Stack Engineer")
-  - State years of experience and primary tech stack
+- **Professional Summary (1-2 sentences)**:
+  - Lead with title matching recent experience (e.g., "Senior Software Engineer")
+- State years of experience and primary tech stack (7+ years, Ruby on Rails, TypeScript)
   - Highlight scale of impact (users served, systems built)
   - Mention leadership/mentorship for senior roles
   - Include domain expertise if relevant (fintech, healthtech)
-  - Example: "Results-driven Staff Software Engineer with 10+ years building scalable Ruby on Rails/TypeScript platforms. Architected fintech systems serving 5M+ users, led teams of 5-10 engineers."
-- **Contact Format**: Name, Email, Phone, LinkedIn, GitHub (optionally portfolio)
-- **Location**: Include city/state for local roles, omit for remote positions
-- **Links**: Ensure GitHub showcases relevant, quality code samples
+- Example: "Results-driven Staff Software Engineer with 7+ years building scalable Ruby on Rails/TypeScript platforms. Drove technical decision making using Results-driven approach, mentoring junior engineers, and delivering high-impact features for SaaS products with 100K+ users."
 - **Avoid**: Generic objectives, clichés ("team player"), what you want vs. what you offer
 
 **Note:** Remember to escape special LaTeX characters: `\$` for dollar signs, `\textgreater` and `\textless` for comparison operators, `\&` for ampersands.
-
-## Resume Format & ATS Optimization (2025)
-
-**Structure Requirements:**
-- **Length**: 2 page ideal
-- **Format**: Clean, single-column layout with standard section headers
-- **File**: PDF with selectable text (not scanned), named professionally (FirstnameLastname_Resume.pdf)
-- **Font**: Sans-serif (Calibri, Arial) for ATS compatibility
-- **Sections Order**: Header → Summary → Experience → Skills → Education
-- **Margins**: Standard margins for readability, no text in headers/footers
-
-**ATS Best Practices:**
-- **Keyword Optimization**:
-  - Mirror exact job posting terminology 2-3 times throughout resume
-  - Include both acronyms and full terms (e.g., "CI/CD (Continuous Integration/Continuous Delivery)")
-  - Place critical keywords in multiple sections (summary, skills, experience)
-- **Standard Headers**: Use conventional section titles ("Professional Experience" not creative alternatives)
-- **Simple Formatting**: Avoid tables, text boxes, graphics, or complex layouts
-- **Bullet Points**: Use standard bullets (●, ○, ■) not special characters
-
-## Startup & Founding Engineer Focus
-
-**Key Differentiators for Startup Roles:**
-- **Full-Stack Ownership**: Emphasize end-to-end project delivery
-- **Rapid Iteration**: Highlight ability to ship quickly and iterate based on feedback
-- **Multiple Hats**: Show versatility across frontend, backend, DevOps, even product
-- **Scrappy Solutions**: Include examples of doing more with less, cost optimization
-- **User Impact**: Direct connection between your work and user/business metrics
-- **Early-Stage Experience**: If applicable, mention employee number, founding team role
-- **Entrepreneurial**: Include side projects, open source, hackathons
-
-**Additional Sections (Optional):**
-- **Projects**: Live demos, GitHub repos with significant stars/activity
-- **Community**: Tech meetup organization, conference speaking, mentoring
-- **Domain Interest**: Side projects or experience in the startup's industry
 
 ## Tailoring Process
 

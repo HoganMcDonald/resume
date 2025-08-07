@@ -11,7 +11,7 @@
 
 ### Reforge (Ed-Tech SaaS AI) - Senior Software Engineer
 **Duration:** Sep 2023 – Present (2025)
-**Location:** Remote / Minneapolis
+**Location:** Remote / San Francisco, CA
 
 **Technology:**
 - Typescript/JavaScript
@@ -36,6 +36,7 @@
 **Achievements:**
 - Created an AI-driven recommender pipeline (OpenAI + Pinecone) powering personalised content swimlanes; raised homepage CTR 20% within 8 weeks
     - Drove the MVP initiative and then prioritized progressive improvements
+    - Ruby on Rails, Pinecone vector database, LangChain, OpenAI API
 - Architected an event-sourced GraphQL service ingesting >2M user events/mo and responding in <200 ms (Go batch workers, Rails API, Apollo Client)
 - Streamlined CI/CD by containerising services; cut mean deploy time from 25 → 15 min (40%)
 - Integrated Pino, Datadog APM, and Sentry to push MTTR down 60%
@@ -52,7 +53,7 @@
 
 ### Ephemeral Tattoos - Senior Software Engineer
 **Duration:** July 2022 - September 2023
-**Location:** Brooklyn, NY - Remote
+**Location:** Remote / Brooklyn, NY
 
 **Technology:**
 - Ruby on Rails
@@ -81,7 +82,7 @@
 
 ### Soona - Senior Software Engineer
 **Duration:** March 2020 - June 2022
-**Location:** Minneapolis, MN - Remote
+**Location:** Remote / Minneapolis, MN
 
 **Technology:**
 - Ruby on Rails
@@ -105,7 +106,7 @@
 
 ### Brandless - Software Engineer II
 **Duration:** April 2019 - February 2020
-**Location:** Minneapolis, MN - Remote
+**Location:** Remote / San Francisco, CA
 
 **Technology:**
 - Ruby on Rails
@@ -175,7 +176,6 @@
 ### University of Minnesota Software Bootcamp - Teaching Assistant
 **Duration:** January 2018 - June 2018
 **Location:** St. Paul, MN
-**Role:** Full Stack Development
 
 ## Technical Skills
 
@@ -191,4 +191,4 @@
 Full Stack Software Engineering Certification - 2017
 
 North Central University
-Pastoral Studies (incomplete) - 2013-2015
+Pastoral Studies (generals) - 2013-2015

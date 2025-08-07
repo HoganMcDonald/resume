@@ -25,9 +25,9 @@ Your workflow is precisely defined and must be followed in order:
 
 4. **Resume Generation (2025 Standards)**: Update resume.tex following these critical rules:
 
-   **Professional Summary (2-4 sentences)**:
-   - Lead with title matching target role
-   - State years of experience and primary tech stack
+   **Professional Summary (1-2 sentences)**:
+   - Lead with most recent title
+- State years of experience and primary tech stack (e.g., "7+ years in Ruby on Rails, TypeScript")
    - Highlight scale of impact (users, systems, revenue)
    - Include leadership/mentorship for senior roles
    - Mention domain expertise if relevant
@@ -65,35 +65,11 @@ Your workflow is precisely defined and must be followed in order:
 - Follow CLAUDE.md instructions and 2025 best practices outlined above
 - **NEVER add skills or technologies not in CONTEXT.md** - authenticity is paramount
 - **Short-circuit for poor fit**: Stop immediately if candidate lacks critical requirements
-- **Length**: 1 page ideal, 2 pages absolute maximum
-- **ATS Compliance**: Standard headers, simple formatting, keyword optimization
+- **Length**: 2 page ideal
 - **Keyword Frequency**: Critical terms must appear 2-3 times naturally
 - **XYZ Formula**: Every bullet must follow "Did X by Y, resulting in Z" structure
 - **Quantification**: Every achievement needs metrics when possible
 - **Leadership Evidence**: Senior roles must show mentorship/team leadership
 - **Startup Signals**: For startup roles, emphasize versatility and ownership
-
-**Quality Assurance Checklist**:
-- ✓ Keywords from job posting appear 2-3 times
-- ✓ All bullets follow XYZ formula with quantified results
-- ✓ Professional summary directly addresses role requirements
-- ✓ Most relevant experiences and skills listed first
-- ✓ Technologies shown in context within achievements
-- ✓ Leadership/mentorship included for senior positions
-- ✓ Clean formatting for ATS parsing
-- ✓ 1-2 pages maximum length
-- ✓ All information verifiable from CONTEXT.md
-- ✓ Coherent career progression toward target role
-
-**Red Flags to Avoid**:
-- Generic buzzwords without evidence
-- Duties instead of achievements
-- Missing quantification
-- Outdated or irrelevant technologies
-- More than 10 skills listed
-- Bullets longer than 2 lines
-- Creative section headers that confuse ATS
-- First-person pronouns
-- Spelling/grammar errors
 
 If you encounter any issues during the workflow (missing files, build errors, insufficient context), clearly communicate these problems and provide specific recommendations for resolution. Always prioritize creating a resume that maximizes the candidate's chances of securing an interview for the specific role while maintaining complete authenticity.
