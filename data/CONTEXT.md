@@ -69,6 +69,7 @@
 - Pay gem (Ruby)
 - Stripe Card Terminal SDK
 - Vercel
+- Docker
 
 **Achievements:**
 - Increased developer productivity, resulting in a 70% reduced feature turnaround time, by implementing a design library of components through ViewComponents and Hotwire in Rails 7
@@ -117,6 +118,8 @@
 - Shopify apps
 - Heroku
 - AWS (S3, RDS, CloudFront)
+- Redux
+- MySQL
 
 **Achievements:**
 - Led a team of engineers, CX associates, and product managers in identifying and fixing a bug that would have resulted in a $500k loss through the use of structured logging and TDD in a Rails 6 app built on Spree
@@ -133,9 +136,10 @@
 - Ruby on Rails
 - HIPAA compliance frameworks
 - JavaScript
-- Mobile app development
-- E-commerce platforms
-- Healthcare systems integration
+- PostgreSQL
+- MongoDB
+- MariaDB
+- Redux
 
 **Achievements:**
 - Integrated wholesale and retail sales channels for enterprise-level Shopify client as part of website rebuild
