@@ -4,9 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-This repository contains my engineering resume and is designed to leverage agentic workflows to craft custom resumes based on job listings. The system allows for dynamic content selection and formatting to match specific role requirements while maintaining professional presentation standards.
+This repository contains my engineering resume and enables automated resume tailoring through a simple URL-based workflow. Simply share a job posting URL with Claude, and it will:
 
-The repository serves as both a resume source and a resume generation platform, enabling tailored versions for different positions by utilizing the comprehensive experience data in `data/CONTEXT.md` and the flexible LaTeX templating system.
+1. **Analyze the job description** - Extract key requirements, technologies, and culture indicators
+2. **Reference experience data** - Use comprehensive career details from `data/CONTEXT.md` 
+3. **Modify `resume.tex`** - Automatically update the LaTeX source with tailored content
+4. **Build the PDF** - Generate the final customized resume
+
+The system maintains all professional experience while strategically emphasizing the most relevant achievements and technologies for each specific role.
 
 ## Commands
 
@@ -114,15 +119,103 @@ The repository serves as both a resume source and a resume generation platform, 
 
 **Note:** Remember to escape special LaTeX characters: `\$` for dollar signs, `\textgreater` and `\textless` for comparison operators, `\&` for ampersands.
 
-## Tailoring Process
+## Automated Tailoring Workflow
 
-**For Each Application:**
-1. **Analyze Job Posting**: Extract key requirements, technologies, culture indicators
-2. **Include ALL Work Experience**: ALWAYS include all companies (Reforge, Ephemeral Tattoos, Soona, Brandless, Foundry) plus Freelance work and Teaching Assistant role - never omit any positions
-3. **Match & Mirror**: Align your experience bullets to job requirements while keeping all roles
-4. **Reorder by Relevance**: Adjust bullet points within each role to highlight most relevant achievements first
-5. **Customize Summary**: Directly address the role's primary needs
-6. **Verify Keywords**: Ensure critical terms appear 2-3 times naturally
-7. **Cultural Fit**: For startups, emphasize passion, adaptability, impact
+**When provided a job posting URL, Claude will:**
 
-**IMPORTANT:** The resume should ALWAYS be 2 full pages and include ALL work history. Tailor by adjusting bullet points and emphasis, not by removing experiences.
+1. **Fetch & Analyze Job Description**
+   - Extract key requirements, preferred technologies, and role expectations
+   - Identify cultural indicators and company priorities
+   - Note specific terminology used (for keyword matching)
+
+2. **Reference Experience Database**
+   - Pull relevant achievements from `data/CONTEXT.md`
+   - Match experiences to job requirements
+   - Select most impactful metrics and technologies
+
+3. **Update `resume.tex` Automatically**
+   - Modify professional summary to address role needs
+   - Reorder and rewrite experience bullets for relevance
+   - Update technical skills section with job-specific keywords
+   - Maintain all mandatory work history positions
+
+4. **Build & Verify**
+   - Run `make build` to generate updated PDF
+   - Ensure proper formatting and LaTeX compilation
+
+**IMPORTANT:** The resume will ALWAYS be 2 full pages and include ALL work history. Tailoring happens through content emphasis and bullet point selection, never by removing positions.
+
+## Linear Job Tracking Format
+
+When creating Linear tickets for job applications, use the following standardized format:
+
+**Ticket Title Format:** `[Company Name] - [Role Title]`
+
+**Ticket Description Structure:**
+```markdown
+## Job Details
+
+**Company:** [Company Name]  
+**Role:** [Full Role Title]  
+**Location:** [Location/Remote]  
+**Employment Type:** [Full-Time/Part-Time/Contract]  
+**Compensation:** [Salary Range + Equity if mentioned]  
+**Job URL:** [Link to job posting]
+
+## About [Company Name]
+
+[Brief company description, mission, funding status if relevant]
+
+## Key Requirements
+
+* **[X]+ years** [specific experience requirement - bold the years]
+* [Other key requirements listed as bullets]
+* [Technical requirements]
+
+## Main Responsibilities
+
+* [Primary responsibilities as bullets]
+* [Keep concise but comprehensive]
+
+## Technologies/Stack
+
+* **Frontend:** [Technologies]
+* **Backend:** [Technologies]  
+* **Infrastructure:** [Cloud/DevOps tools]
+* **Databases:** [Database systems]
+
+## Benefits
+
+* [Key benefits if mentioned]
+* [Compensation details]
+* [Remote policy]
+
+## Application Link
+
+[Direct link to application]
+
+## Resume Tailoring Notes (Optional)
+
+* [Specific elements to emphasize]
+* [Technologies to highlight]
+* [Experience to focus on]
+```
+
+**Labels to Use:**
+- `Applied` - Application submitted
+- Add other relevant labels as needed
+
+**Status Options:**
+- `Todo` - Not yet applied
+- `In Progress` - Application in process or resume being tailored
+- `Backlog` - Interesting but lower priority
+- `Canceled` - Decided not to apply
+- `Duplicate` - Duplicate posting
+
+**Priority Levels:**
+- **Urgent (1):** Perfect match, apply immediately
+- **High (2):** Strong match, apply soon
+- **Medium (3):** Good match, apply when time permits
+- **Low (4):** Interesting but not priority
+
+**Attachments:** Always attach the job posting URL as an attachment with descriptive title like "[Company] Job Posting"
